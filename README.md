@@ -85,7 +85,7 @@ Contribuiçcoes sl-bem-vindas!0 Se você deseja contribuir para o Chex, siga os 
 
 1. **Fork o Repositório**:
    `
-   git fork https://github.com/ciphers-systems/chex.git
+   git fork https://github.com/enigma-w-e-b/chex.git
    `
 
 2. **Crie uma Branch:**
@@ -94,7 +94,7 @@ Contribuiçcoes sl-bem-vindas!0 Se você deseja contribuir para o Chex, siga os 
    `
 ## Suporte
 
-Para suporte, entre em contato com a Ciphers Systems através do [site oficial](https://ciphers.systems/) ou abra uma issue no [repositório do GitHub](https://github.com/ciphers-systems/chex/issues).
+Para suporte, entre em contato com a Ciphers Systems através do [site oficial](https://ciphers.systems/) ou abra uma issue no [repositório do GitHub](https://github.com/enigma-w-e-b/chex/issues).
 
 ## Licenca
 
