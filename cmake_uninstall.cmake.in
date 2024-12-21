@@ -1,0 +1,19 @@
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "@CMAKE_INSTALL_PREFIX@")
+endif()
+
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  message(FATAL_ERROR "CMAKE_INSTALL_PREFIX not defined")
+endif()
+
+file(READ "@CMAKE_BINARY_DIR@/install_manifest.txt" files)
+string(REGEX REPLACE "\n" ";" files "${files}")
+
+foreach(file ${files})
+  message(STATUS "Uninstalling ${file}")
+  if(EXISTS "${file}" OR IS_SYMLINK "${file}")
+    execute_process(COMMAND ${CMAKE_COMMAND} -E remove "${file}")
+  else()
+    message(STATUS "File ${file} does not exist.")
+  endif()
+endforeach()

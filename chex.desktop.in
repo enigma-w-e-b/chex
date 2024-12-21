@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Chex
+Comment=Chex Encode And Decode Tool
+Exec=@CMAKE_INSTALL_PREFIX@/bin/chex
+Icon=chex-icon
+Terminal=false
+Type=Application
+Categories=Ciphers;Development;

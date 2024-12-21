@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chex-icon.svg</file>
+        <file>ciphers-systems-icon.png</file>
+    </qresource>
+</RCC>
